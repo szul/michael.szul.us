@@ -4,98 +4,34 @@ html {
 }
 body {
 	font-family: "Segoe UI", Tahoma, "Trebuchet MS";
-	color: #333;
+	font-size: 14pt;
+	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
+	color: #666;
 	padding: 10px;
 	width: 1000px;
 	text-align: left;
 	margin: auto;
 }
 a {
-	color: #333;
+	color: #666;
 }
-a > img {
-	margin: 0px;
-	padding: 0px;
+footer > p > a > img {
 	border: 0px;
-}
-nav > div {
-	float: left;
-}
-article {
-	margin: -390px 0px 0px 10px;
-	width: 575px;
-	float: left;
-}
-article > h1 {
-	font-weight: normal;
-	font-size: 20px;
-}
-section {
-	margin-left: 25px;
-}
-section > h1 {
-	font-weight: 500;
-	font-size: 18px;
-	margin-top: 20px;
-}
-section > ul {
-	margin-bottom: 45px;
-}
-section > ul > li {
-	margin-bottom: 20px;
-}
-section > ul > li > div {
-	text-align: center;
-}
-section > ul > li > div > p {
-	text-align: left;
-}
-nav.small {
-	clear: both;
-	margin-top: 0px;
-}
-nav.small > div .blocks {
-	width: 171px !important;
-}
-div .blocks a {
-	font-size: 22px;
-	margin: 15px 0px 0px 15px;
-	color: #fff;
-}
-div .blocks {
-	width: 270px;
-	height: 176px;
-	background-color: #E0882F;
-}
-footer p {
-	font-size: 12px;
-	text-align: center;
-}
-footer p img {
-	border: 0px;
-}
-.masthead, nav {
-	margin-top: 100px;
-	float: left;
-}
-.masthead .blocks h1 {
-	font-weight: normal;
-	font-size: 22px;
-}
-.masthead img {
-	margin-top: 75px;
-}
-.masthead .blocks {
-	width: 358px;
-	height: 373px;
-}
-.image-link {
-	margin: 0px !important;
-}
-.blocks {
-	background-color: #E0882F;
-	margin: 16px 8px 0px 8px;
+	width: 100px;
 }
 .clear {
 	clear: both;
+}
+
+/* Bootstrap overrides */
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
+	color: #666;
+	background-color: #eee;
+}
+a:focus, a:hover {
+	color: #666;
+}
+li[role=presentation] > a {
+	color: #666;
 }
