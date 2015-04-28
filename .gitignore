@@ -42,6 +42,9 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+.komodotools/
+*.komodoproject
+
 node_modules/
 static/audio/
 static/videos/

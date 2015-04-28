@@ -1,37 +1,50 @@
-html {
-	text-align: center;
-	background-color: #fff;
-}
 body {
-	font-family: "Segoe UI", Tahoma, "Trebuchet MS";
+	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
 	font-size: 14pt;
-	/*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 	color: #666;
-	padding: 10px;
-	width: 1000px;
+	background-color: #fff;
+	padding: 0px;
+	margin: 0px;
+	text-align: center;
+}
+main {
+	width: 900px;
+	margin: 0px auto 0px auto;
 	text-align: left;
-	margin: auto;
+}
+main > section h1 {
+	font-size: 14pt;
 }
 a {
 	color: #666;
 }
+a:hover {
+	color: orange;
+	text-decoration: none;
+}
+footer {
+	font-size: 10pt;
+	margin-top: 200px;
+	text-align: center;
+}
 footer > p > a > img {
 	border: 0px;
 	width: 100px;
+	margin: 5px 20px 0px 20px;
 }
 .clear {
 	clear: both;
 }
 
 /* Bootstrap overrides */
-
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-	color: #666;
-	background-color: #eee;
+	color: orange;
+	background-color: #fff;
+}
+.nav > li > a:focus, .nav > li > a:hover {
+	background-color: #fff;
 }
 a:focus, a:hover {
-	color: #666;
-}
-li[role=presentation] > a {
-	color: #666;
+	color: orange;
+	background-color: #fff;
 }
