@@ -2,6 +2,7 @@
 
 var express = require('express');
 var fs = require('fs');
+var cheerio = require('cheerio');
 
 var app = express();
 app.set('views', '/views')
@@ -26,6 +27,25 @@ app.use(function(req, res, next) {
 });
 
 app.use(express.static(publicdir));
+
+app.get('/blog-posts/', function (req, res) {
+
+  fs.readdir(publicdir + '/blog', function(err, files) {
+    files.filter(function(file) {
+      return file.substr(-5) === '.html';
+    }).forEach(function(file) {
+      if (file !== 'index.html') {
+        fs.readFile(file, 'utf-8', function(err, contents) {
+          $ = cheerio.load(contents);
+          
+        });
+      }
+    });
+  });
+
+  res.json({  });
+
+});
 
 /*
  *For Azure deployment
