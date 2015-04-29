@@ -4,7 +4,9 @@ var express = require('express');
 var fs = require('fs');
 
 var app = express();
-
+app.set('views', '/views')
+app.set('view engine', 'jade')
+ 
 /*
  * Serve static content.
  */
@@ -22,6 +24,7 @@ app.use(function(req, res, next) {
   else
     next();
 });
+
 app.use(express.static(publicdir));
 
 /*

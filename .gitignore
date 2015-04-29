@@ -45,6 +45,8 @@ Temporary Items
 .komodotools/
 *.komodoproject
 
+.idea/
+
 node_modules/
 static/audio/
 static/videos/
