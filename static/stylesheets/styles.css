@@ -25,6 +25,9 @@ a:hover {
 	color: orange;
 	text-decoration: none;
 }
+li {
+	margin-bottom: 10px;
+}
 footer {
 	font-size: 10pt;
 	margin-top: 200px;
