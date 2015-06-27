@@ -1,6 +1,6 @@
 body {
 	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
-	font-size: 14pt;
+	font-size: 12pt;
 	color: #666;
 	background-color: #fff;
 	padding: 0px;
@@ -8,36 +8,35 @@ body {
 	text-align: center;
 }
 h1 {
-	font-size: 20pt;
+    font-size: 22pt;
 }
 main {
 	width: 900px;
 	margin: 0px auto 0px auto;
 	text-align: left;
 }
+p {
+    line-height: 22px;
+}
 main > section h1 {
 	font-size: 14pt;
-}
-main > aside {
-	background-color: #eee;
-	padding: 50px 10px 50px 10px;
-	border: 1px solid #ddd;
-	margin-top: 30px;
 }
 strong {
 	font-weight: 600;
 }
 a {
-	color: #666;
-	text-decoration: underline;
-}
-a:hover {
 	color: orange;
 	text-decoration: none;
 }
+a:hover {
+    color: orange;
+	text-decoration: underline;
+}
+/*
 li {
 	margin-bottom: 10px;
 }
+*/
 footer {
 	font-size: 10pt;
 	margin-top: 100px;
@@ -45,7 +44,6 @@ footer {
 }
 footer > p > a > img {
 	border: 0px;
-	width: 100px;
 	margin: 5px 20px 0px 20px;
 }
 .clear {
@@ -53,14 +51,10 @@ footer > p > a > img {
 }
 
 /* Bootstrap overrides */
+.nav-pills {
+    padding: 5px;
+}
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
-	color: orange;
-	background-color: #fff;
-}
-.nav > li > a:focus, .nav > li > a:hover {
-	background-color: #fff;
-}
-a:focus, a:hover {
-	color: orange;
-	background-color: #fff;
+	color: #fff;
+	background-color: orange;
 }
