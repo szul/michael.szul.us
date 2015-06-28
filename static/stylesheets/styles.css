@@ -1,6 +1,6 @@
 body {
 	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
-	font-size: 12pt;
+	font-size: 13pt;
 	color: #666;
 	background-color: #fff;
 	padding: 0px;
@@ -16,10 +16,11 @@ main {
 	text-align: left;
 }
 p {
-    line-height: 22px;
+    line-height: 26px;
 }
 main > section h1 {
-	font-size: 14pt;
+    margin-top: 20px;
+	font-size: 15pt;
 }
 strong {
 	font-weight: 600;
@@ -33,7 +34,7 @@ a:hover {
 	text-decoration: underline;
 }
 li {
-	margin-bottom: 10px;
+	margin-bottom: 20px;
 }
 footer {
 	font-size: 10pt;
