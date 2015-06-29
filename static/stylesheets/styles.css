@@ -11,7 +11,7 @@ h1 {
     font-size: 22pt;
 }
 main {
-	width: 900px;
+	max-width: 900px;
 	margin: 0px auto 0px auto;
 	text-align: left;
 }
