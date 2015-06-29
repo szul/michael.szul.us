@@ -13,6 +13,7 @@ h1 {
 main {
 	max-width: 900px;
 	margin: 0px auto 0px auto;
+	padding: 5px;
 	text-align: left;
 }
 p {
