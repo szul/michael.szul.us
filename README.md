@@ -1,3 +1,3 @@
 # michael.szul.us
 
-Decided to rework my personal web site a bit, and use GitHub as a repo for it in the process. It's currently under constructions, so there's a lot of work to do.
+Decided to rework my personal web site a bit, and use GitHub as a repo for it in the process. The site is a node.js project that serves static content. Bootstrap is used for the design scaffold.
