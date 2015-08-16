@@ -45,6 +45,15 @@ Temporary Items
 .komodotools/
 *.komodoproject
 
+*.ntvs_analysis.dat
+*.pubxml
+*.pubxml.user
+*.PublishSettings
+*.suo
+bin/
+obj/
+*-Thor.*
+
 .idea/
 
 node_modules/
