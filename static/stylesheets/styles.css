@@ -1,6 +1,6 @@
 body {
 	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
-	font-size: 13pt;
+	font-size: 12pt;
 	color: #666;
 	background-color: #fff;
 	padding: 0px;
@@ -8,7 +8,10 @@ body {
 	text-align: center;
 }
 h1 {
-    font-size: 22pt;
+    font-size: 20pt;
+}
+header {
+	margin: 0px auto 25px auto;
 }
 main {
 	max-width: 900px;
@@ -57,4 +60,7 @@ footer > p > a > img {
 .nav-pills > li.active > a, .nav-pills > li.active > a:focus, .nav-pills > li.active > a:hover {
 	color: #fff;
 	background-color: orange;
+}
+.well {
+	margin-top: 30px;
 }
