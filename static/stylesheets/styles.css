@@ -11,6 +11,7 @@ h1 {
     font-size: 20pt;
 }
 header {
+    max-width: 1000px;   
 	margin: 0px auto 25px auto;
 }
 main {
@@ -21,6 +22,12 @@ main {
 }
 p {
     line-height: 26px;
+}
+main > section {
+    padding: 5px 10px 5px 10px;
+}
+main > section:hover {
+   background-color: #eee;
 }
 main > section h1 {
     margin-top: 20px;
