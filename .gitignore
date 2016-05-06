@@ -59,4 +59,5 @@ obj/
 node_modules/
 static/audio/
 static/videos/
-static/javascripts/lib/
+static/bower_components/
+
