@@ -60,4 +60,4 @@ node_modules/
 static/audio/
 static/videos/
 static/bower_components/
-
+.vscode/
