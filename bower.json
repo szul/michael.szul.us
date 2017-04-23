@@ -20,7 +20,6 @@
     "tests"
   ],
   "dependencies": {
-    "milligram": "^1.1.0",
-    "jquery": "^2.2.3"
+    "milligram": "^1.1.0"
   }
 }
