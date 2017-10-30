@@ -1,0 +1,23 @@
+{
+  "name": "michael.szul.us",
+  "version": "1.0.0",
+  "description": "Decided to rework my personal web site a bit, and use GitHub as a repo for it in the process. The site is a one page static HTML5 site using [Milligram](https://milligram.github.io) as the CSS framework.",
+  "main": "index.html",
+  "dependencies": {
+    "milligram": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szul/michael.szul.us.git"
+  },
+  "author": "Michael Szul <michael@szul.us>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szul/michael.szul.us/issues"
+  },
+  "homepage": "https://github.com/szul/michael.szul.us#readme"
+}
