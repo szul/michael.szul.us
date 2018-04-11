@@ -58,6 +58,16 @@ footer {
 .clearfix {
 	margin-top: 2rem;
 }
+#headshot {
+	display: none;
+}
+#mobile-header {
+	text-align: center;
+}
+#mobile-header img {
+	width: 15rem;
+	margin-left: -0.3rem;
+}
 /* Larger than mobile screen */
 @media (min-width: 1.0rem) {
 
@@ -83,6 +93,14 @@ footer {
 	.column a > img {
 		width: 50%;
 	}
+	#headshot {
+		display: block;
+		width: 90%;
+		margin-left: -4rem;
+	}
+	#mobile-header {
+		display: none;
+	}
 }
 
 /* Larger than desktop screen */
@@ -98,5 +116,13 @@ footer {
 	}
 	.column a > img {
 		width: 50%;
+	}
+	#headshot {
+		display: block;
+		width: 90%;
+		margin-left: -4rem;
+	}
+	#mobile-header {
+		display: none;
 	}
 }
