@@ -32,6 +32,14 @@ section {
 p {
     line-height: 2.6rem;
 }
+dt h5
+, dt audio
+, dt small {
+	margin-left: 5rem;
+}
+dt h5 {
+	margin-top: 3rem;
+}
 footer {
 	margin-top: 5%;
 }
