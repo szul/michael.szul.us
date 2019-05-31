@@ -61,3 +61,4 @@ static/audio/
 static/videos/
 static/bower_components/
 .vscode/
+_gen/
