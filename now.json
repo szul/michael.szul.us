@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "name": "michael.szul.us",
+    "builds": [
+        { "src": "**/*.html", "use": "@now/static" },
+        { "src": "static/**", "use": "@now/static" },
+        { "src": "package.json", "use": "@now/static-build",  "config": { "distDir": "./" }}
+    ],
+    "routes": [
+        { "src": "^/", "dest": "/index.html" },
+        { "src": "^/static/(.+)", "dest": "/static/$1" }
+    ],
+    "alias": [
+        "michael.szul.us"
+    ]
+}
