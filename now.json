@@ -9,8 +9,5 @@
     "routes": [
         { "src": "^/", "dest": "/index.html" },
         { "src": "^/static/(.+)", "dest": "/static/$1" }
-    ],
-    "alias": [
-        "michael.szul.us"
     ]
 }
