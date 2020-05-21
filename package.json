@@ -4,6 +4,7 @@
   "description": "Decided to rework my personal web site a bit, and use GitHub as a repo for it in the process. The site is a one page static HTML5 site using Milligram as the CSS framework.",
   "main": "index.html",
   "dependencies": {
+    "feather-icons": "^4.28.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.2.0",
     "gulp-concat": "^2.6.1",

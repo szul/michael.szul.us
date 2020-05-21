@@ -1,80 +1,68 @@
-html {
-	padding: 0;
-	margin: 0;
-}
-body {
-	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
-	font-size: 2.0rem;
-	color: #666;
-	background-color: #fff;
-	padding: 0;
-	margin: 0;
-	background-color: #fff;
-}
-main {
-	margin: auto;
-	background-color: #fff;
-}
-nav {
-	text-align: right;
-}
-nav a img {
-	width: 50px;
-	z-index: 100;
-	position: relative;
-}
-h2 {
-	font-size: 3.2rem;
-	padding-bottom: 1%;
-	border-bottom: 0.5px solid #ccc;
-}
-h3
-, h4 {
-	font-size: 2.5rem;
-	margin-top: 5%;
-}
-h4 {
-	background-color: #666;
-	color: #fff;
-	display: inline;
-	line-height: 4rem;
-}
-section {
-	margin-top: 10%;
-}
-p {
-    line-height: 2.6rem;
-}
-dl {
-	margin-top: 5%;
-}
-dt {
-	font-size: 2.5rem;
-	font-weight: 300;
-	letter-spacing: -.1rem;
-	margin-bottom: 2rem;
-}
-dd h5 {
-	margin-top: 3rem;
-}
-footer {
-	margin-top: 5%;
-}
 a,
 a:hover,
 a:focus {
 	color: #ccaa00;
 }
-#headshot {
-	width: 75px;
-	position: relative;
-	top: 3px;
-	left: 15px;
-	z-index: 10;
+nav > a {
+	display: block;
 }
-.container {
-	max-width: 1200px;
-	padding: 0 10rem 0 10rem;
-	border-left: 1px solid #ccaa00;
-	border-right: 1px solid #ccaa00;
+footer {
+	margin-top: 10rem;
+	font-size: 1rem;
+	text-align: center;
+}
+dd > a {
+	font-size: 1.3rem;
+}
+.push-right {
+	text-align: center;
+}
+.column-25 {
+	max-width: 100% !important;
+	margin-right: 10rem;
+}
+.column-75 {
+	max-width: 100% !important;
+}
+/* Larger than mobile screen */
+@media (min-width: 1.0rem) {
+
+}
+
+@media (min-width: 40.0rem) {
+
+}
+
+/* Larger than tablet screen */
+@media (min-width: 80.0rem) {
+	main {
+		margin-top: 10rem !important;
+	}
+	.column-25 {
+		max-width: 25% !important;
+	}
+	.column-75 {
+		max-width: 75% !important;
+	}
+	.push-right {
+		margin-left: 7rem;
+		text-align: left;
+	}
+}
+
+/* Larger than desktop screen */
+@media (min-width: 120.0rem) {
+	main {
+		margin-top: 10rem !important;
+	}
+	.column-25 {
+		max-width: 25% !important;
+	}
+	.column-75 {
+		max-width: 75% !important;
+	}
+	.push-right {
+		margin-left: 7rem;
+		text-align: left;
+	}
 }
