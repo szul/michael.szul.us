@@ -1,3 +1,7 @@
+html {
+	padding: 0;
+	margin: 0;
+}
 body {
 	font-family: "Segoe UI", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Tahoma, "Trebuchet MS", "Lucida Grande", sans-serif;
 	font-size: 2.0rem;
@@ -5,10 +9,19 @@ body {
 	background-color: #fff;
 	padding: 0;
 	margin: 0;
-	text-align: center;
+	background-color: #fff;
 }
 main {
-	margin-left: 2rem !important;
+	margin: auto;
+	background-color: #fff;
+}
+nav {
+	text-align: right;
+}
+nav a img {
+	width: 50px;
+	z-index: 100;
+	position: relative;
 }
 h2 {
 	font-size: 3.2rem;
@@ -47,87 +60,21 @@ dd h5 {
 footer {
 	margin-top: 5%;
 }
-.container {
-	max-width: 1200px;
-	margin: 3% auto 0 auto;
-	padding: 1%;
-	text-align: left;
-}
-.column a > img {
-	border: 0px;
-	width: 15%;
-	margin: 1rem;
-}
-.column-25 {
-	max-width: 100% !important;
-}
-.column-25 > p {
-	float: left;
-}
-.column-75 {
-	max-width: 90% !important;
-}
-.clearfix {
-	margin-top: 2rem;
+a,
+a:hover,
+a:focus {
+	color: #ccaa00;
 }
 #headshot {
-	width: 23%;
-	margin: 0 -1rem 0 -0.8rem;
+	width: 75px;
 	position: relative;
-	top: -0.5rem;
+	top: 3px;
+	left: 15px;
+	z-index: 10;
 }
-/* Larger than mobile screen */
-@media (min-width: 1.0rem) {
-
-}
-
-@media (min-width: 40.0rem) {
-	.column a > img {
-		width: 35%;
-	}
-	#headshot {
-		width: 35%;
-		margin: initial;
-		position: initial;
-	}
-}
-
-/* Larger than tablet screen */
-@media (min-width: 80.0rem) {
-	main {
-		margin: auto !important;
-	}
-	.column-25 {
-		max-width:25% !important;
-	}
-	.column-75 {
-		max-width: 75% !important;
-	}
-	.column a > img {
-		width: 50%;
-	}
-	#headshot {
-		width: 90%;
-		margin-left: -4rem;
-	}
-}
-
-/* Larger than desktop screen */
-@media (min-width: 120.0rem) {
-	main {
-		margin: auto !important;
-	}
-	.column-25 {
-		max-width:25% !important;
-	}
-	.column-75 {
-		max-width: 75% !important;
-	}
-	.column a > img {
-		width: 50%;
-	}
-	#headshot {
-		width: 90%;
-		margin-left: -4rem;
-	}
+.container {
+	max-width: 1200px;
+	padding: 0 10rem 0 10rem;
+	border-left: 1px solid #ccaa00;
+	border-right: 1px solid #ccaa00;
 }

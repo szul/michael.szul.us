@@ -14,13 +14,17 @@
   <body>
     <main class="container">
       <div class="row">
-        <div class="column column-25">
-          <a href="/"><img id="headshot" src="/static/images/michaelszul-cartoon-headshot.jpg" alt="Michael Szul" title="Michael Szul" /></a>
-          <a href="http://www.linkedin.com/in/mjszul" rel="external"><img src="/static/images/social/linkedin.png" alt="LinkedIn" /></a>
-          <a href="http://github.com/szul" rel="external"><img src="/static/images/social/github.png" alt="GitHub" /></a>
-          <a href="http://twitter.com/szul" rel="external"><img src="/static/images/social/twitter.png" alt="Twitter" /></a>
+        <div class="column">
+          <nav>
+            <a href="/"><img id="headshot" src="/static/images/michaelszul-cartoon-headshot.jpg" alt="Michael Szul" title="Michael Szul" /></a>
+            <a href="http://www.linkedin.com/in/mjszul" rel="external"><img src="/static/images/social/linkedin.png" alt="LinkedIn" /></a>
+            <a href="http://github.com/szul" rel="external"><img src="/static/images/social/github.png" alt="GitHub" /></a>
+            <a href="http://twitter.com/szul" rel="external"><img src="/static/images/social/twitter.png" alt="Twitter" /></a>
+          </nav>
         </div>
-        <div class="column column-75">
+      </div>
+      <div class="row">
+        <div class="column">
           <h1>Michael Szul</h1>
           <h4>Builder of minds. Writes code that writes code.</h4>
           <div class="clearfix"></div>
@@ -140,20 +144,24 @@
           </section>
         </div>
       </div>
+      <div class="row">
+        <div class="column">
+          <footer>
+            <h6>Copyright 2000 - 2020 <a href="/">Michael Szul</a>. All rights reserved.</h6>
+          </footer>
+          <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-22459488-2']);
+            _gaq.push(['_trackPageview']);
+      
+            (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+          </script>
+        </div>
+      </div>
     </main>
-    <footer>
-      <h6>Copyright 2000 - 2020 <a href="/">Michael Szul</a>. All rights reserved.</h6>
-    </footer>
-    <script type="text/javascript">
-      var _gaq = _gaq || [];
-      _gaq.push(['_setAccount', 'UA-22459488-2']);
-      _gaq.push(['_trackPageview']);
-
-      (function() {
-        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-      })();
-    </script>
   </body>
 </html>

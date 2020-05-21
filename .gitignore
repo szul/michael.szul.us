@@ -64,3 +64,4 @@ static/bower_components/
 _gen/
 
 .now
+.vercel
