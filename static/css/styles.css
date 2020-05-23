@@ -11,18 +11,17 @@ footer {
 	font-size: 1rem;
 	text-align: center;
 }
+dl {
+	margin-left: 2rem;
+}
 dd > a {
 	font-size: 1.3rem;
 }
 .push-right {
 	text-align: center;
 }
-.column-25 {
-	max-width: 100% !important;
-	margin-right: 10rem;
-}
-.column-75 {
-	max-width: 100% !important;
+.push-left {
+	margin-right: 0rem;
 }
 /* Larger than mobile screen */
 @media (min-width: 1.0rem) {
@@ -38,12 +37,6 @@ dd > a {
 	main {
 		margin-top: 10rem !important;
 	}
-	.column-25 {
-		max-width: 25% !important;
-	}
-	.column-75 {
-		max-width: 75% !important;
-	}
 	.push-right {
 		margin-left: 7rem;
 		text-align: left;
@@ -54,12 +47,6 @@ dd > a {
 @media (min-width: 120.0rem) {
 	main {
 		margin-top: 10rem !important;
-	}
-	.column-25 {
-		max-width: 25% !important;
-	}
-	.column-75 {
-		max-width: 75% !important;
 	}
 	.push-right {
 		margin-left: 7rem;
